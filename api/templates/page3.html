@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Func</title>
+        <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"> </script>
+        <script type=text/javascript> $(function() { $("#mybutton").click(function (event) { $.getJSON('/running', { },
+        function(data) { }); return false; }); }); 
+        </script>
+    </head>
+    <body>
+        <!-- <form action='#' , method="post">
+            <p> <input type="submit" name="btn" value="start"> </p>
+            <p> <input type="submit" name="btn" value="stop"> </p>
+        </form> -->
+
+        <!-- <input type = "button" id = "mybutton" value = "Click Here" /> -->
+        <p>
+            <a href="/running"><h3>Start function</h3></a>
+        </p>
+    </body>
+</html>
